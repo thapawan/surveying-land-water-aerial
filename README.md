@@ -3,10 +3,10 @@
 A unified, open repository for **land, hydrographic (water), and UAV/aerial surveying** workflows—bridging **geomatics, remote sensing, and river science**. Curated by **Pawan Thapa**.
 
 
-## Total Station Survey Photo
+## Survey Photo
 
 <p align="center">
-  <img src="https://github.com/thapawan/surveying-land-water-aerial/blob/main/Photos/TotalStation.jpg"
+  <img src="https://github.com/thapawan/surveying-land-water-aerial/blob/main/Photos/pic1.jpg"
 </p>
 
 
