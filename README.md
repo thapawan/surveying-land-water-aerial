@@ -1,68 +1,116 @@
-# Surveying: Land • Water • Aerial
+Here is a **clean, polished, final version** of your **Surveying: Land • Water • Aerial** project description, with your **ResearchGate Lab** and **GitHub repository** links properly integrated.  
+You can paste this into **GitHub README**, **ResearchGate**, **Spatialnode**, **your website**, or as a project description in a portfolio.
 
-A unified, open repository for **land, hydrographic (water), and UAV/aerial surveying** workflows—bridging **geomatics, remote sensing, and river science**. Curated by **Pawan Thapa**.
+***
 
+# **Surveying: Land • Water • Aerial**
 
-## Survey Photo
+**Surveying: Land • Water • Aerial** is a unified, open repository for **land surveying**, **hydrographic/water science**, and **UAV/aerial mapping** workflows—bridging geomatics, remote sensing, and river science.  
+Curated by **Pawan Thapa**.
 
-<p align="center">
-  <img src="https://github.com/thapawan/surveying-land-water-aerial/blob/main/Photos/pic1.jpg"
-</p>
+***
 
+## 🌍 Why This Repo?
 
-## Why this repo?
-Researchers and practitioners often split **land**, **water**, and **aerial** work into separate silos. This repo keeps them together with a consistent structure, so you can:
+Land, water, and aerial surveying workflows are often separated into different pipelines. This repository keeps them together in one consistent structure so you can:
 
-- Reuse field + UAV + GIS methods across projects
-- Compare **river corridor** change with **floodplain** and **bank** metrics
-- Document **repeatable** workflows (from raw data → analysis → map/report)
+*   Reuse **field + UAV + GIS** methods across projects
+*   Compare **river corridor changes** with floodplain, bank, and migration metrics
+*   Document **repeatable, transparent workflows** from *raw data → analysis → maps/reports*
 
-## Key Capabilities
+***
 
-### Land: GNSS/RTK processing, ground control, DEM/DSM generation, breaklines
-### Water: River centerline & curvature, banklines, flood extent (SAR/optical), AWEI/NDWI, migration metrics, SHAP/XAI for drivers
-### Aerial/UAV: Mission planning, radiometric calibration, sensor notes (RGB, multispectral, thermal, LiDAR), image alignment, orthomosaics, water-surface masking
+## 🔑 Key Capabilities
 
----
+### **Land**
 
-## Repository Structure
+*   GNSS/RTK workflows
+*   Ground control point (GCP) management
+*   DEM/DSM generation
+*   Breaklines, terrain correction
 
-```text
-surveying-land-water-aerial/
-├─ data/                # Small sample/test data & README links to large data locations
-│  ├─ land/
-│  ├─ water/
-│  └─ aerial/
-├─ notebooks/          # Jupyter notebooks (EDA, methods, results)
-│  ├─ land/
-│  ├─ water/
-│  └─ aerial/
-├─ src/                # Reusable Python modules
-│  ├─ land/            # topography, GNSS/RTK, control networks, DEMs
-│  ├─ water/           # river centerlines, migration, bathy, discharge proxies
-│  ├─ aerial/          # flight planning, radiometric calib, ortho/DSM, QA/QC
-│  └─ common/          # io, utils, CRS, tiling, validation
-├─ scripts/            # CLI helpers (data prep, tiles, export)
-├─ docs/               # Project docs, figures, reports
-├─ README.md
-├─ LICENSE (MIT)
-└─ .gitignore
+### **Water**
 
-'''
+*   River centerline + curvature metrics
+*   Banklines & migration analysis
+*   Flood extent mapping (SAR/optical fusion)
+*   AWEI / NDWI indices
+*   SHAP/XAI for geomorphic drivers
 
+### **Aerial / UAV**
+
+*   Mission planning
+*   Radiometric calibration
+*   RGB / multispectral / thermal / LiDAR notes
+*   Image alignment, orthomosaics, DSMs
+*   Water‑surface masking
+
+***
+
+## 📁 Repository Structure
+
+    surveying-land-water-aerial/
+    ├─ data/                # Sample/test data + links to large datasets
+    │  ├─ land/
+    │  ├─ water/
+    │  └─ aerial/
+    ├─ notebooks/           # Jupyter notebooks (EDA, methods, results)
+    │  ├─ land/
+    │  ├─ water/
+    │  └─ aerial/
+    ├─ src/                 # Reusable Python modules
+    │  ├─ land/             # GNSS/RTK, DEMs, topo processing
+    │  ├─ water/            # centerlines, migration, hydrology
+    │  ├─ aerial/           # flight planning, ortho, QA/QC
+    │  └─ common/           # I/O, utils, CRS, tiling
+    ├─ scripts/             # CLI helpers
+    ├─ docs/                # Project documentation, figures, reports
+    ├─ README.md
+    ├─ LICENSE (MIT)
+    └─ .gitignore
+
+***
+
+## ⚙️ Quick Start
+
+```bash
 conda create -n survey python=3.11 -y
 conda activate survey
 pip install -r requirements.txt
+```
 
-# Example: compute river curvature metrics from a centerline
-python -m src.water.example_curvature --centerline data/water/sample_centerline.geojson \
-    --out docs/curvature_demo.geojson
+### Example: Compute river curvature metrics
 
+```bash
+python -m src.water.example_curvature \
+  --centerline data/water/sample_centerline.geojson \
+  --out docs/curvature_demo.geojson
+```
+
+***
+
+## 📚 Citation
+
+```bibtex
 @misc{surveying_land_water_aerial,
   title        = {Surveying: Land • Water • Aerial},
   author       = {Thapa, Pawan},
   year         = {2026},
   howpublished = {GitHub repository},
-  url          = {https://github.com/USERNAME/surveying-land-water-aerial}
+  url          = {https://github.com/thapawan/surveying-land-water-aerial}
 }
-``
+```
+
+***
+
+## 🔗 Links
+
+### **ResearchGate Lab**
+
+<https://www.researchgate.net/lab/Geoinformatics-Earth-Observation-Artificial-Intelligence-Remote-Sensing-Pawan-Thapa>
+
+### **GitHub Repository (Land/Water/UAV Projects)**
+
+<https://github.com/thapawan/surveying-land-water-aerial>
+
+***
