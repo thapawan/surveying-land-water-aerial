@@ -1,8 +1,3 @@
-Here is a **clean, polished, final version** of your **Surveying: Land • Water • Aerial** project description, with your **ResearchGate Lab** and **GitHub repository** links properly integrated.  
-You can paste this into **GitHub README**, **ResearchGate**, **Spatialnode**, **your website**, or as a project description in a portfolio.
-
-***
-
 # **Surveying: Land • Water • Aerial**
 
 **Surveying: Land • Water • Aerial** is a unified, open repository for **land surveying**, **hydrographic/water science**, and **UAV/aerial mapping** workflows—bridging geomatics, remote sensing, and river science.  
